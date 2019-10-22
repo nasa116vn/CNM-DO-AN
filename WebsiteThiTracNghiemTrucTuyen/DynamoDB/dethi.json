@@ -1,0 +1,31 @@
+[
+    {
+       "made": "1",
+        "tieude": "Đề thi lịch sử",
+        "nguoirade":{
+            "manguoirade": "100001",
+            "hoten": "Nguyễn Văn A"
+        },
+        "monhoc": "Lịch sử"
+    },
+    {
+        "made": "2",
+        "tieude": "Đề thi tiếng anh",
+        "nguoirade":{
+            "manguoirade": "100001",
+            "hoten": "Nguyễn Văn A"
+        },
+        "monhoc": "Tiếng Anh"  
+    },
+    {
+        "made": "3",
+        "tieude": "Đề thi tin học",
+        "nguoirade":{
+            "manguoirade": "100001",
+            "hoten": "Nguyễn Văn A"
+        },
+        "monhoc": "Tin Học"  
+    }
+    
+
+]

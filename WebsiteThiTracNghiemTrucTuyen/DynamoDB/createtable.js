@@ -54,7 +54,7 @@ let params2 = { //thuc hien xem ket qua
     }
 };
 
-let params3 = {  //de thuc hien chuc nang quan ly de, load cac de thuoc 1 nguoi ra de 
+let params3 = {  //de thuc hien chuc nang quan ly de, load cac de thuoc 1 nguoi ra de , load de thi theo mon hoc o homepage
     TableName: "DeThi",
     KeySchema: [
         { AttributeName: "made", KeyType: "HASH"},
@@ -62,15 +62,32 @@ let params3 = {  //de thuc hien chuc nang quan ly de, load cac de thuoc 1 nguoi 
     ],
     AttributeDefinitions: [
         { AttributeName: "made", AttributeType: "N"},
-        { AttributeName: "manguoirade", AttributeType: "N"}
+        { AttributeName: "manguoirade", AttributeType: "N"},
+        { AttributeName: "monhoc", AttributeType: "S"}
     ],
     ProvisionedThroughput:{
         ReadCapacityUnits: 10,
         WriteCapacityUnits: 10
-    }
+    },
+    LocalSecondaryIndexes: [{
+        IndexName: "MonHocIndex",
+        KeySchema: [
+            {
+                AttributeName: "made",
+                KeyType: "HASH"
+            },
+            {
+                AttributeName: "monhoc",
+                KeyType: "RANGE"
+            }
+        ],
+        Projection: {
+            ProjectionType: "ALL"
+        }
+    }]
 };
 
-let params4 = {  //de thuc hien load bai thi cua thi sinh
+let params4 = {  //de thuc hien load bai thi cua thi sinh, lay tat ca bai thi cua 1 de
     TableName: "BaiThi",
     KeySchema: [
         { AttributeName: "mabaithi", KeyType: "HASH"},
@@ -78,12 +95,29 @@ let params4 = {  //de thuc hien load bai thi cua thi sinh
     ],
     AttributeDefinitions: [
         { AttributeName: "mabaithi", AttributeType: "N"},
-        { AttributeName: "mathisinh", AttributeType: "N"}
+        { AttributeName: "mathisinh", AttributeType: "N"},
+        { AttributeName: "made", AttributeType: "N"}
     ],
     ProvisionedThroughput:{
         ReadCapacityUnits: 10,
         WriteCapacityUnits: 10
-    }
+    },
+    LocalSecondaryIndexes: [{
+        IndexName: "DeThiIndex",
+        KeySchema: [
+            {
+                AttributeName: "mabaithi",
+                KeyType: "HASH"
+            },
+            {
+                AttributeName: "made",
+                KeyType: "RANGE"
+            }
+        ],
+        Projection: {
+            ProjectionType: "ALL"
+        }
+    }]
 };
 
 let params5 = {  //de thuc hien load bai thi cua thi sinh

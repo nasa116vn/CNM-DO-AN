@@ -1,5 +1,392 @@
 [
     {
-        
+        "macauhoi": "100",
+        "dethi":{
+            "made": "1",
+            "monhoc": "Lịch Sử",
+            "tieude": "Đề thi lịch sử"
+        },
+        "cauhoi": "Trước Chiến tranh thế Giới thứ II, Inđônêxia là thuộc địa của nước nào ?",
+        "dapanA": "Anh",
+        "dapanB": "Mĩ",
+        "dapanC": "Hà Lan",
+        "dapanD": "Pháp"
+    },
+    {
+        "macauhoi": "101",
+        "dethi":{
+            "made": "1",
+            "monhoc": "Lịch Sử",
+            "tieude": "Đề thi lịch sử"
+        },
+        "cauhoi": "Sau khi Nhật đầu hàng Đồng minh, 3 nước ở Đông Nam Á tuyên bố độc lập là:",
+        "dapanA": "Việt Nam, Philippin, Lào",
+        "dapanB": "Philippin, Lào, Việt Nam",
+        "dapanC": "Inđonêxia, Việt Nam, Lào",
+        "dapanD": "Miến Điện, Lào, Việt Nam"
+    },
+    {
+        "macauhoi": "102",
+        "dethi":{
+            "made": "1",
+            "monhoc": "Lịch Sử",
+            "tieude": "Đề thi lịch sử"
+        },
+        "cauhoi": "Nước nào dưới đây trong Chiến tranh thế giới thứ II không bị phát xít Nhật chiếm đóng ?",
+        "dapanA": "Việt Nam",
+        "dapanB": "Inđônêxia",
+        "dapanC": "Thái Lan",
+        "dapanD": "Campuchia"
+    },
+    {
+        "macauhoi": "103",
+        "dethi":{
+            "made": "1",
+            "monhoc": "Lịch Sử",
+            "tieude": "Đề thi lịch sử"
+        },
+        "cauhoi": "Nước nào dưới đây tuyên bố độc lập và thành lập chế độ cộng hoà sớm nhất ở Đông Nam Á ?",
+        "dapanA": "Việt Nam",
+        "dapanB": "Malaixia",
+        "dapanC": "Miến Điện",
+        "dapanD": "Inđônêxia"
+    },
+    {
+        "macauhoi": "104",
+        "dethi":{
+            "made": "1",
+            "monhoc": "Lịch Sử",
+            "tieude": "Đề thi lịch sử"
+        },
+        "cauhoi": "Trước năm 1959, Singapo là thũộc địa của nước :",
+        "dapanA": "Pháp",
+        "dapanB": "Mĩ",
+        "dapanC": "Hà Lan",
+        "dapanD": "Anh"
+    },
+    {
+        "macauhoi": "105",
+        "dethi":{
+            "made": "1",
+            "monhoc": "Lịch Sử",
+            "tieude": "Đề thi lịch sử"
+        },
+        "cauhoi": "Nhân vật nào được mệnh danh là :Người cha của đất nước Singapo hiện đại ?",
+        "dapanA": "Ápdun Raman",
+        "dapanB": "Lí Quang Diệu",
+        "dapanC": "Lí Thừa Vãn",
+        "dapanD": "Chu Dung Cơ"
+    },
+    {
+        "macauhoi": "106",
+        "dethi":{
+            "made": "1",
+            "monhoc": "Lịch Sử",
+            "tieude": "Đề thi lịch sử"
+        },
+        "cauhoi": "Chiến tranh lạnh được đánh dấu bằng sự kiện :",
+        "dapanA": "Sau khi Chiến tranh thế giới thứ hai kết thúc (8/1945)",
+        "dapanB": "Sau khi các nước Đông Âu tuyên bố hoàn thành cách mạng dân chủ nhân dân và tiến hành xây dụng CNXH (1949)",
+        "dapanC": "Khi Tổng thống Truman đọc diễn văn trước Quốc hội Mĩ, kêu gọi đẩy mạnh hoạt động chống Liên Xô và các nước Xã hội chủ nghĩa, bảo vệ thế giới tự do(3/1947)",
+        "dapanD": "Mĩ đưa ra Kế hoạch Mácsan, được các nước tư bản phương Tây chấp thuận (6/1947)"
+    },
+    {
+        "macauhoi": "107",
+        "dethi":{
+            "made": "1",
+            "monhoc": "Lịch Sử",
+            "tieude": "Đề thi lịch sử"
+        },
+        "cauhoi": "Nguyên nhân của mâu thuẫn Đông – Tây là ?",
+        "dapanA": "Do Mĩ phát động Chiến tranh lạnh chống Liên Xô và các nước Xã hội chủ nghĩa",
+        "dapanB": "Do các nước phương Tây suy yếu sau chiến tranh, Liên xô muốn mở rộng ảnh hưởng ở khu vực này",
+        "dapanC": "Do Mĩ độc quyền vũ khí nguyên tử",
+        "dapanD": "Do sự đối lập về mục tiêu và chiến lược giữa 2 cường quốc là Liên Xô và Mĩ"
+    },
+    {
+        "macauhoi": "108",
+        "dethi":{
+            "made": "1",
+            "monhoc": "Lịch Sử",
+            "tieude": "Đề thi lịch sử"
+        },
+        "cauhoi": "Sự hình thành các liên minh NATO ở châu Âu, CENTO ở Trung Cận Đông, tổ chức Hiệp ước Vácsava ỡ Đông Âu... trong những thập niên sau Chiến tranh thế giới thứ II phản ánh điều gì ?",
+        "dapanA": "Liên kết khu vực đang là một xu thế của thế giới",
+        "dapanB": "Nỗ lực của các quốc gia để ngăn chận một cuộc chiến tranh thế giới mới",
+        "dapanC": "Sự đối đầu quyết liệt giữa hai cực trong trật tự Ianta",
+        "dapanD": "Chiến lược toàn cầu, xác lập vai trò lãnh đạo thế giới của Mĩ đã thất bại"
+    },
+    {
+        "macauhoi": "109",
+        "dethi":{
+            "made": "1",
+            "monhoc": "Lịch Sử",
+            "tieude": "Đề thi lịch sử"
+        },
+        "cauhoi": "Điểm giống nhau giữa chiến tranh chống thực dân Pháp ở Việt Nam (1946 - 1954) và chiến trành Triều Tiên (1950- 1953) ?",
+        "dapanA": "Là những cuộc chiến tranh dài ngày, khốc liệt",
+        "dapanB": "Là những cuộc chiến tranh chống lại chủ nghĩa thực dân cũ",
+        "dapanC": "Là những cuộc chiến tranh mà mỗi bên tham chiến đều chịu tác đổng mạnh mẽ của hai phe : Tư bản chủ nghĩa hoặc Xã hội chủ nghĩa",
+        "dapanD": "Là những cuộc chiến tranh của 2 dân tộc chống lại chủ nghĩa thực dân mới, vì mục tiêu độc lập dân tộc, thống nhất đất nước"
+    },
+    {
+        "macauhoi": "141",
+        "dethi":{
+            "made": "2",
+            "monhoc": "Tiếng Anh",
+            "tieude": "Đề thi tiếng anh"
+        },
+        "cauhoi": "I ............Louisiana state University",
+        "dapanA": "am attending",
+        "dapanB": "attend",
+        "dapanC": "was attending",
+        "dapanD": "attended"
+    },
+    {
+        "macauhoi": "142",
+        "dethi":{
+            "made": "2",
+            "monhoc": "Tiếng Anh",
+            "tieude": "Đề thi tiếng anh"
+        },
+        "cauhoi": "He has been selling motorcycles.................",
+        "dapanA": "ten years ago",
+        "dapanB": "since ten years",
+        "dapanC": "for ten years ago",
+        "dapanD": "for ten years"
+    },
+    {
+        "macauhoi": "143",
+        "dethi":{
+            "made": "2",
+            "monhoc": "Tiếng Anh",
+            "tieude": "Đề thi tiếng anh"
+        },
+        "cauhoi": "Columbus............America more then 400 years ago",
+        "dapanA": "discovered",
+        "dapanB": "has discovered",
+        "dapanC": "had discovered",
+        "dapanD": "he has gone"
+    },
+    {
+        "macauhoi": "144",
+        "dethi":{
+            "made": "2",
+            "monhoc": "Tiếng Anh",
+            "tieude": "Đề thi tiếng anh"
+        },
+        "cauhoi": "He fell down when he ............towards the church",
+        "dapanA": "run",
+        "dapanB": "runs",
+        "dapanC": "was running",
+        "dapanD": "had run"
+    },
+    {
+        "macauhoi": "145",
+        "dethi":{
+            "made": "2",
+            "monhoc": "Tiếng Anh",
+            "tieude": "Đề thi tiếng anh"
+        },
+        "cauhoi": "We ............there when our father died",
+        "dapanA": "still lived",
+        "dapanB": "lived still",
+        "dapanC": "was still living",
+        "dapanD": "were still living"
+    },
+    {
+        "macauhoi": "146",
+        "dethi":{
+            "made": "2",
+            "monhoc": "Tiếng Anh",
+            "tieude": "Đề thi tiếng anh"
+        },
+        "cauhoi": "They ............pingpong when their father comes back home",
+        "dapanA": "will play",
+        "dapanB": "will be playing",
+        "dapanC": "play",
+        "dapanD": "would play"
+    },
+    {
+        "macauhoi": "147",
+        "dethi":{
+            "made": "2",
+            "monhoc": "Tiếng Anh",
+            "tieude": "Đề thi tiếng anh"
+        },
+        "cauhoi": "By Christmas, I.............for you for 6 months",
+        "dapanA": "Shall have been working",
+        "dapanB": "shall work",
+        "dapanC": "have been working",
+        "dapanD": "shall be working"
+    },
+    {
+        "macauhoi": "148",
+        "dethi":{
+            "made": "2",
+            "monhoc": "Tiếng Anh",
+            "tieude": "Đề thi tiếng anh"
+        },
+        "cauhoi": "I............in the room now",
+        "dapanA": "am being",
+        "dapanB": "was being",
+        "dapanC": "have been being",
+        "dapanD": "am"
+    },
+    {
+        "macauhoi": "149",
+        "dethi":{
+            "made": "2",
+            "monhoc": "Tiếng Anh",
+            "tieude": "Đề thi tiếng anh"
+        },
+        "cauhoi": "I.............to New york three times this year",
+        "dapanA": "have been",
+        "dapanB": "was",
+        "dapanC": "were",
+        "dapanD": "had been"
+    },
+    {
+        "macauhoi": "150",
+        "dethi":{
+            "made": "2",
+            "monhoc": "Tiếng Anh",
+            "tieude": "Đề thi tiếng anh"
+        },
+        "cauhoi": "I will come and see you before I.............for America",
+        "dapanA": "leave",
+        "dapanB": "will leave",
+        "dapanC": "have left",
+        "dapanD": "shall leave"
+    },
+    {
+        "macauhoi": "121",
+        "dethi":{
+            "made": "3",
+            "monhoc": "Tin Học",
+            "tieude": "Đề thi tin học"
+        },
+        "cauhoi": "Thiết bị nào sau đây dùng để kết nối mạng?",
+        "dapanA": "Ram",
+        "dapanB": "Rom",
+        "dapanC": "Router",
+        "dapanD": "CPU"
+    },
+    {
+        "macauhoi": "122",
+        "dethi":{
+            "made": "3",
+            "monhoc": "Tin Học",
+            "tieude": "Đề thi tin học"
+        },
+        "cauhoi": "Hệ thống nhớ của máy tính bao gồm:",
+        "dapanA": "Bộ nhớ trong, Bộ nhớ ngoài",
+        "dapanB": "Cache, Bộ nhớ ngoài",
+        "dapanC": "Bộ nhớ ngoài, ROM",
+        "dapanD": "Đĩa quang, Bộ nhớ trong"
+    },
+    {
+        "macauhoi": "123",
+        "dethi":{
+            "made": "3",
+            "monhoc": "Tin Học",
+            "tieude": "Đề thi tin học"
+        },
+        "cauhoi": "Trong mạng máy tính, thuật ngữ Share có ý nghĩa gì?",
+        "dapanA": "Chia sẻ tài nguyên",
+        "dapanB": "Nhãn hiệu của một thiết bị kết nối mạng",
+        "dapanC": "Thực hiện lệnh in trong mạng cục bộ",
+        "dapanD": "Một phần mềm hỗ trợ sử dụng mạng cục bộ"
+    },
+    {
+        "macauhoi": "124",
+        "dethi":{
+            "made": "3",
+            "monhoc": "Tin Học",
+            "tieude": "Đề thi tin học"
+        },
+        "cauhoi": "Bộ nhớ RAM và ROM là bộ nhớ gì?",
+        "dapanA": "Primary memory",
+        "dapanB": "Receive memory",
+        "dapanC": "Secondary memory",
+        "dapanD": "Random access memory"
+    },
+    {
+        "macauhoi": "125",
+        "dethi":{
+            "made": "3",
+            "monhoc": "Tin Học",
+            "tieude": "Đề thi tin học"
+        },
+        "cauhoi": "Các thiết bị nào thông dụng nhất hiện nay dùng để cung cấp dữ liệu cho máy xử lý?",
+        "dapanA": "Bàn phím (Keyboard), Chuột (Mouse), Máy in (Printer) ",
+        "dapanB": "Máy quét ảnh (Scaner)",
+        "dapanC": "Bàn phím (Keyboard), Chuột (Mouse) và Máy quét ảnh (Scaner)",
+        "dapanD": "Máy quét ảnh (Scaner), Chuột (Mouse)"
+    },
+    {
+        "macauhoi": "126",
+        "dethi":{
+            "made": "3",
+            "monhoc": "Tin Học",
+            "tieude": "Đề thi tin học"
+        },
+        "cauhoi": "Khái niệm hệ điều hành là gì ?",
+        "dapanA": "Cung cấp và xử lý các phần cứng và phần mềm",
+        "dapanB": "Nghiên cứu phương pháp, kỹ thuật xử lý thông tin bằng máy tính điện tử",
+        "dapanC": "Nghiên cứu về công nghệ phần cứng và phần mềm",
+        "dapanD": "Là một phần mềm chạy trên máy tính, dùng để điều hành, quản lý các thiết bị phần cứng và các tài nguyên phần mềm trên máy tính"
+    },
+    {
+        "macauhoi": "127",
+        "dethi":{
+            "made": "3",
+            "monhoc": "Tin Học",
+            "tieude": "Đề thi tin học"
+        },
+        "cauhoi": "Cho biết cách xóa một tập tin hay thư mục mà không di chuyển vào Recycle Bin:?",
+        "dapanA": "Chọn thư mục hay tâp tin cần xóa -> Delete",
+        "dapanB": "Chọn thư mục hay tâp tin cần xóa -> Ctrl + Delete",
+        "dapanC": "Chọn thư mục hay tâp tin cần xóa -> Alt + Delete",
+        "dapanD": "Chọn thư mục hay tâp tin cần xóa -> Shift + Delete"
+    },
+    {
+        "macauhoi": "128",
+        "dethi":{
+            "made": "3",
+            "monhoc": "Tin Học",
+            "tieude": "Đề thi tin học"
+        },
+        "cauhoi": "Danh sách các mục chọn trong thực đơn gọi là :",
+        "dapanA": "Menu pad",
+        "dapanB": "Menu options",
+        "dapanC": "Menu bar",
+        "dapanD": "Tất cả đều sai"
+    },
+    {
+        "macauhoi": "129",
+        "dethi":{
+            "made": "3",
+            "monhoc": "Tin Học",
+            "tieude": "Đề thi tin học"
+        },
+        "cauhoi": "Công dụng của phím Print Screen là gì?",
+        "dapanA": "In màn hình hiện hành ra máy in",
+        "dapanB": "Không có công dụng gì khi sử dụng 1 mình nó",
+        "dapanC": "In văn bản hiện hành ra máy in",
+        "dapanD": "Chụp màn hình hiện hành"
+    },
+    {
+        "macauhoi": "130",
+        "dethi":{
+            "made": "3",
+            "monhoc": "Tin Học",
+            "tieude": "Đề thi tin học"
+        },
+        "cauhoi": "Nếu bạn muốn làm cho cửa sổ nhỏ hơn (không kín màn hình), bạn nên sử dụng nút nào?",
+        "dapanA": "Maximum",
+        "dapanB": "Minimum",
+        "dapanC": "Restore down",
+        "dapanD": "Close"
     }
 ]

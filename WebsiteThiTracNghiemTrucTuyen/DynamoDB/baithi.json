@@ -1,0 +1,40 @@
+[
+    {
+        "mabaithi": "111",
+        "tenbaithi": "Đề thi lịch sử", 
+        "thisinh": {
+            "mathisinh": "100002",
+            "hoten": "Nguyễn Văn B"
+        },
+        "dethi":{
+            "made": "1"
+        },
+        "socaudung": "8"
+    },
+    {
+        "mabaithi": "112",
+        "tenbaithi": "Đề thi tiếng anh", 
+        "thisinh": {
+            "mathisinh": "100002",
+            "hoten": "Nguyễn Văn B"
+        },
+        "dethi":{
+            "made": "2"
+        },
+        "socaudung": "7"
+    },
+    {
+        "mabaithi": "113",
+        "tenbaithi": "Đề thi tin học", 
+        "thisinh": {
+            "mathisinh": "100002",
+            "hoten": "Nguyễn Văn B"
+        },
+        "dethi": {
+            "made": "3"
+        },
+        "socaudung": "9"
+    }
+    
+
+]
