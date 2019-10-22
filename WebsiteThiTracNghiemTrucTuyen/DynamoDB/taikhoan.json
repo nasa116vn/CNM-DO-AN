@@ -1,0 +1,68 @@
+[
+    {
+        "taikhoan": "admin",
+        "matkhau": "admin",
+        "loai": "admin",
+        "admin": {
+            "maAdmin": "100000"
+        },
+        "nguoirade":{
+            "manguoirade": "###",
+            "hoten": "###",
+            "namsinh": "###",
+            "sodienthoai": "###",
+            "email": "###"
+        },
+        "thisinh":{
+            "mathisinh": "###",
+            "hoten": "###",
+            "namsinh": "###",
+            "sodienthoai": "###",
+            "email": "###"
+        }
+    },
+    {
+        "taikhoan": "nguoirade",
+        "matkhau": "nguoirade",
+        "loai": "nguoirade",
+        "admin": {
+            "maAdmin": "###"
+        },
+        "nguoirade":{
+            "manguoirade": "100001",
+            "hoten": "Nguyễn Văn A",
+            "namsinh": "20/10/1980",
+            "sodienthoai": "0354988651",
+            "email": "nguyenvana@gmail.com"
+        },
+        "thisinh":{
+            "mathisinh": "###",
+            "hoten": "###",
+            "namsinh": "###",
+            "sodienthoai": "###",
+            "email": "###"
+        }
+    },
+    {
+        "taikhoan": "thisinh",
+        "matkhau": "thisinh",
+        "loai": "thisinh",
+        "admin": {
+            "maAdmin": "###"
+        },
+        "nguoirade":{
+            "manguoirade": "###",
+            "hoten": "###",
+            "namsinh": "###",
+            "sodienthoai": "###",
+            "email": "###"
+        },
+        "thisinh":{
+            "mathisinh": "100002",
+            "hoten": "Nguyễn Văn B",
+            "namsinh": "11/12/1998",
+            "sodienthoai": "0354988677",
+            "email": "nguyenvanb@gmail.com"
+        }
+    }
+]
