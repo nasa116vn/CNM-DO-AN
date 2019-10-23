@@ -25,12 +25,12 @@ let params = { // thuc hien chuc nang tao de
 let params1 = { // thuc hien chuc nang thi trac nghiem
     TableName: "CauHoiThuocDe",
     KeySchema: [
-        { AttributeName: "macauhoi", KeyType: "HASH"},
-        { AttributeName: "made", KeyType: "RANGE"}
+        { AttributeName: "made", KeyType: "HASH"},
+        { AttributeName: "macauhoi", KeyType: "RANGE"}
     ],
     AttributeDefinitions: [
-        { AttributeName: "macauhoi", AttributeType: "N"},
-        { AttributeName: "made", AttributeType: "N"}
+        { AttributeName: "made", AttributeType: "N"},
+        { AttributeName: "macauhoi", AttributeType: "N"}
     ],
     ProvisionedThroughput:{
         ReadCapacityUnits: 10,
@@ -41,12 +41,12 @@ let params1 = { // thuc hien chuc nang thi trac nghiem
 let params2 = { //thuc hien xem ket qua 
     TableName: "CauHoiThuocBaiThi",
     KeySchema: [
-        { AttributeName: "macauhoi", KeyType: "HASH"},
-        { AttributeName: "mabaithi", KeyType: "RANGE"}
+        { AttributeName: "mabaithi", KeyType: "HASH"},
+        { AttributeName: "macauhoi", KeyType: "RANGE"}
     ],
     AttributeDefinitions: [
-        { AttributeName: "macauhoi", AttributeType: "N"},
-        { AttributeName: "mabaithi", AttributeType: "N"}
+        { AttributeName: "mabaithi", AttributeType: "N"},
+        { AttributeName: "macauhoi", AttributeType: "N"}
     ],
     ProvisionedThroughput:{
         ReadCapacityUnits: 10,
