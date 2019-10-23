@@ -1,15 +1,153 @@
 [
     {
-        "macauhoi": "",
-        "baithi": {
-            "mabaithi": "111",
-            "tenbaithi": "Đề thi lịch sử"
-        },
-        "thisinh":{
-            "mathisinh": "",
-            "hoten": ""
-        },
-        "dapanchon": ""
-        
-}
+        "macauhoi": "100",
+        "mabaithi": "111",
+        "dapanchon": "C"
+    },
+    {
+        "macauhoi": "101",
+        "mabaithi": "111",
+        "dapanchon": "C"
+    },
+    {
+        "macauhoi": "102",
+        "mabaithi": "111",
+        "dapanchon": "C"
+    },
+    {
+        "macauhoi": "103",
+        "mabaithi": "111",
+        "dapanchon": "D"
+    },
+    {
+        "macauhoi": "104",
+        "mabaithi": "111",
+        "dapanchon": "D"
+    },
+    {
+        "macauhoi": "105",
+        "mabaithi": "111",
+        "dapanchon": "B"
+    },
+    {
+        "macauhoi": "106",
+        "mabaithi": "111",
+        "dapanchon": "C"
+    },
+    {
+        "macauhoi": "107",
+        "mabaithi": "111",
+        "dapanchon": "A"
+    },
+    {
+        "macauhoi": "108",
+        "mabaithi": "111",
+        "dapanchon": "D"
+    },
+    {
+        "macauhoi": "109",
+        "mabaithi": "111",
+        "dapanchon": "B"
+    },
+    {
+        "macauhoi": "141",
+        "mabaithi": "112",
+        "dapanchon": "A"
+    },
+    {
+        "macauhoi": "142",
+        "mabaithi": "112",
+        "dapanchon": "B"
+    },
+    {
+        "macauhoi": "143",
+        "mabaithi": "112",
+        "dapanchon": "A"
+    },
+    {
+        "macauhoi": "144",
+        "mabaithi": "112",
+        "dapanchon": "C"
+    },
+    {
+        "macauhoi": "145",
+        "mabaithi": "112",
+        "dapanchon": "D"
+    },
+    {
+        "macauhoi": "146",
+        "mabaithi": "112",
+        "dapanchon": "A"
+    },
+    {
+        "macauhoi": "147",
+        "mabaithi": "112",
+        "dapanchon": "D"
+    },
+    {
+        "macauhoi": "148",
+        "mabaithi": "112",
+        "dapanchon": "C"
+    },
+    {
+        "macauhoi": "149",
+        "mabaithi": "112",
+        "dapanchon": "A"
+    },
+    {
+        "macauhoi": "150",
+        "mabaithi": "112",
+        "dapanchon": "D"
+    },
+    {
+        "macauhoi": "121",
+        "mabaithi": "113",
+        "dapanchon": "C"
+    },
+    {
+        "macauhoi": "122",
+        "mabaithi": "113",
+        "dapanchon": "A"
+    },
+    {
+        "macauhoi": "123",
+        "mabaithi": "113",
+        "dapanchon": "A"
+    },
+    {
+        "macauhoi": "124",
+        "mabaithi": "113",
+        "dapanchon": "A"
+    },
+    {
+        "macauhoi": "125",
+        "mabaithi": "113",
+        "dapanchon": "C"
+    },
+    {
+        "macauhoi": "126",
+        "mabaithi": "113",
+        "dapanchon": "D"
+    },
+    {
+        "macauhoi": "127",
+        "mabaithi": "113",
+        "dapanchon": "D"
+    },
+    {
+        "macauhoi": "128",
+        "mabaithi": "113",
+        "dapanchon": "C"
+    },
+    {
+        "macauhoi": "129",
+        "mabaithi": "113",
+        "dapanchon": "B"
+    },
+    {
+        "macauhoi": "130",
+        "mabaithi": "113",
+        "dapanchon": "B"
+    }
+
 ]

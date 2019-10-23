@@ -14,7 +14,7 @@ allcauhoi.forEach((nganhangcauhoi)=>{
     let param = {
         TableName: "NganHangCauHoi",
         Item: {
-            "macauhoi": nganhangcauhoi.macauhoi,
+            "macauhoi": Number(nganhangcauhoi.macauhoi),
             "monhoc": nganhangcauhoi.monhoc,
             "cauhoi": nganhangcauhoi.cauhoi,
             "dapanA": nganhangcauhoi.dapanA,
@@ -39,9 +39,9 @@ alltaikhoan.forEach((taikhoan)=>{
     let param1 = {
         TableName: "TaiKhoan",
         Item:{
-            "taikhoan": taikhoan.taikhoan,
+            "taikhoan": String(taikhoan.taikhoan),
             "matkhau": taikhoan.matkhau,
-            "loai": taikhoan.loai,
+            "loai": String(taikhoan.loai),
             "admin": {
                 "maAdmin": taikhoan.admin.maAdmin
             },
@@ -75,13 +75,13 @@ alldethi.forEach((dethi)=>{
     let param2 = {
         TableName: "DeThi",
         Item: {
-            "made": dethi.made,
+            "made": Number(dethi.made),
             "tieude": dethi.tieude,
+            "manguoirade": Number(dethi.manguoirade),
             "nguoirade":{
-                "manguoirade": dethi.nguoirade.manguoirade,
                 "hoten": dethi.nguoirade.hoten
             },
-            "monhoc": dethi.monhoc
+            "monhoc": String(dethi.monhoc)
             }
     };
     docClient.put(param2, (err, data) => {
@@ -99,16 +99,14 @@ allbaithi.forEach((baithi)=>{
     let param3 = {
         TableName: "BaiThi",
         Item: {
-            "mabaithi": baithi.mabaithi,
+            "mabaithi": Number(baithi.mabaithi),
             "tenbaithi": baithi.tenbaithi, 
+            "mathisinh": Number(baithi.mathisinh),
             "thisinh": {
-                "mathisinh": baithi.thisinh.mathisinh,
                 "hoten": baithi.thisinh.hoten
             },
-            "dethi":{
-                "made": baithi.dethi.made
-            },
-            "socaudung": baithi.socaudung
+            "made": Number(baithi.made)
+            
         }
     };
     docClient.put(param3, (err, data) => {
@@ -126,9 +124,9 @@ allcauhoithuocde.forEach((cauhoithuocde)=>{
     let param4 = {
         TableName: "CauHoiThuocDe",
         Item: {
-            "macauhoi": cauhoithuocde.mabaithi,
+            "macauhoi": Number(cauhoithuocde.macauhoi),
+            "made": Number(cauhoithuocde.made),
             "dethi":{
-                "made": cauhoithuocde.dethi.made,
                 "monhoc": cauhoithuocde.dethi.monhoc,
                 "tieude": cauhoithuocde.dethi.tieude
             },
@@ -148,4 +146,23 @@ allcauhoithuocde.forEach((cauhoithuocde)=>{
     });
 });
 
-// cau hoi thuoc bai thi de thuc hien xem ket qua cua bai thi cua 1 thi sinh
+// cau hoi thuoc bai thi de thuc hien xem ket qua cua bai thi cua bai thi
+let allcauhoithuocbaithi = JSON.parse(fs.readFileSync(__dirname + '/cauhoithuocbaithi.json','utf-8'));
+allcauhoithuocbaithi.forEach((cauhoithuocbaithi)=>{
+    let param5 = {
+        TableName: "CauHoiThuocBaiThi",
+        Item: {
+            "macauhoi": Number(cauhoithuocbaithi.macauhoi),
+            "mabaithi": Number(cauhoithuocbaithi.mabaithi) ,
+            "dapanchon": cauhoithuocbaithi.dapanchon
+        }
+    };
+    docClient.put(param5, (err, data) => {
+        if (err) {
+            console.error(`Unable to add cau hoi thuoc bai thi ${cauhoithuocbaithi.mabaithi}, ${JSON.stringify(err, null, 2)}`);
+        } else {
+            console.log(`Cau hoi thuoc bai thi created ${cauhoithuocbaithi.mabaithi}`);
+        }
+    });
+});
+
