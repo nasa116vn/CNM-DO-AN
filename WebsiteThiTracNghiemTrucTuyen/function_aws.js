@@ -7,3 +7,6 @@ AWS.config.update({
 })
 let docClient = new AWS.DynamoDB.DocumentClient()
 
+function getNguoiradeT(res){
+    let param = {}
+}
