@@ -13,7 +13,7 @@ let params = { // thuc hien chuc nang tao de
         { AttributeName: "monhoc", KeyType: "RANGE"}
     ],
     AttributeDefinitions: [
-        { AttributeName: "macauhoi", AttributeType: "N"},
+        { AttributeName: "macauhoi", AttributeType: "S"},
         { AttributeName: "monhoc", AttributeType: "S"}
     ],
     ProvisionedThroughput:{
@@ -29,8 +29,8 @@ let params1 = { // thuc hien chuc nang thi trac nghiem
         { AttributeName: "macauhoi", KeyType: "RANGE"}
     ],
     AttributeDefinitions: [
-        { AttributeName: "made", AttributeType: "N"},
-        { AttributeName: "macauhoi", AttributeType: "N"}
+        { AttributeName: "made", AttributeType: "S"},
+        { AttributeName: "macauhoi", AttributeType: "S"}
     ],
     ProvisionedThroughput:{
         ReadCapacityUnits: 10,
@@ -45,8 +45,8 @@ let params2 = { //thuc hien xem ket qua
         { AttributeName: "macauhoi", KeyType: "RANGE"}
     ],
     AttributeDefinitions: [
-        { AttributeName: "mabaithi", AttributeType: "N"},
-        { AttributeName: "macauhoi", AttributeType: "N"}
+        { AttributeName: "mabaithi", AttributeType: "S"},
+        { AttributeName: "macauhoi", AttributeType: "S"}
     ],
     ProvisionedThroughput:{
         ReadCapacityUnits: 10,
@@ -61,8 +61,8 @@ let params3 = {  //de thuc hien chuc nang quan ly de, load cac de thuoc 1 nguoi 
         { AttributeName: "manguoirade", KeyType: "RANGE"}
     ],
     AttributeDefinitions: [
-        { AttributeName: "made", AttributeType: "N"},
-        { AttributeName: "manguoirade", AttributeType: "N"},
+        { AttributeName: "made", AttributeType: "S"},
+        { AttributeName: "manguoirade", AttributeType: "S"},//N
         { AttributeName: "monhoc", AttributeType: "S"}
     ],
     ProvisionedThroughput:{
@@ -94,9 +94,9 @@ let params4 = {  //de thuc hien load bai thi cua thi sinh, lay tat ca bai thi cu
         { AttributeName: "mathisinh", KeyType: "RANGE"}
     ],
     AttributeDefinitions: [
-        { AttributeName: "mabaithi", AttributeType: "N"},
-        { AttributeName: "mathisinh", AttributeType: "N"},
-        { AttributeName: "made", AttributeType: "N"}
+        { AttributeName: "mabaithi", AttributeType: "S"},
+        { AttributeName: "mathisinh", AttributeType: "S"},
+        { AttributeName: "made", AttributeType: "S"}
     ],
     ProvisionedThroughput:{
         ReadCapacityUnits: 10,

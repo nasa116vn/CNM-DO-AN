@@ -14,7 +14,7 @@ allcauhoi.forEach((nganhangcauhoi)=>{
     let param = {
         TableName: "NganHangCauHoi",
         Item: {
-            "macauhoi": Number(nganhangcauhoi.macauhoi),
+            "macauhoi": String(nganhangcauhoi.macauhoi),
             "monhoc": nganhangcauhoi.monhoc,
             "cauhoi": nganhangcauhoi.cauhoi,
             "dapanA": nganhangcauhoi.dapanA,
@@ -75,9 +75,9 @@ alldethi.forEach((dethi)=>{
     let param2 = {
         TableName: "DeThi",
         Item: {
-            "made": Number(dethi.made),
+            "made": String(dethi.made),
             "tieude": dethi.tieude,
-            "manguoirade": Number(dethi.manguoirade),
+            "manguoirade": String(dethi.manguoirade),
             "nguoirade":{
                 "hoten": dethi.nguoirade.hoten
             },
@@ -99,13 +99,13 @@ allbaithi.forEach((baithi)=>{
     let param3 = {
         TableName: "BaiThi",
         Item: {
-            "mabaithi": Number(baithi.mabaithi),
+            "mabaithi": String(baithi.mabaithi),
             "tenbaithi": baithi.tenbaithi, 
-            "mathisinh": Number(baithi.mathisinh),
+            "mathisinh": String(baithi.mathisinh),
             "thisinh": {
                 "hoten": baithi.thisinh.hoten
             },
-            "made": Number(baithi.made)
+            "made": String(baithi.made)
             
         }
     };
@@ -124,8 +124,8 @@ allcauhoithuocde.forEach((cauhoithuocde)=>{
     let param4 = {
         TableName: "CauHoiThuocDe",
         Item: {
-            "macauhoi": Number(cauhoithuocde.macauhoi),
-            "made": Number(cauhoithuocde.made),
+            "macauhoi": String(cauhoithuocde.macauhoi),
+            "made": String(cauhoithuocde.made),
             "dethi":{
                 "monhoc": cauhoithuocde.dethi.monhoc,
                 "tieude": cauhoithuocde.dethi.tieude
@@ -152,8 +152,8 @@ allcauhoithuocbaithi.forEach((cauhoithuocbaithi)=>{
     let param5 = {
         TableName: "CauHoiThuocBaiThi",
         Item: {
-            "macauhoi": Number(cauhoithuocbaithi.macauhoi),
-            "mabaithi": Number(cauhoithuocbaithi.mabaithi) ,
+            "macauhoi": String(cauhoithuocbaithi.macauhoi),
+            "mabaithi": String(cauhoithuocbaithi.mabaithi) ,
             "dapanchon": cauhoithuocbaithi.dapanchon
         }
     };

@@ -24,7 +24,7 @@
     {
         "taikhoan": "nguoirade",
         "matkhau": "nguoirade",
-        "loai": "nguoirade",
+        "loai": "người ra đề",
         "admin": {
             "maAdmin": "###"
         },
@@ -46,7 +46,7 @@
     {
         "taikhoan": "thisinh",
         "matkhau": "thisinh",
-        "loai": "thisinh",
+        "loai": "thí sinh",
         "admin": {
             "maAdmin": "###"
         },
