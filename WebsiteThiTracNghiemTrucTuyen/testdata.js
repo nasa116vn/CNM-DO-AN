@@ -130,34 +130,49 @@ console.log("Querying.");
 //     };
 // });
 
-var params = { // Lay thong tin tai khoan, dang nhap // pass
-    TableName : "TaiKhoan",
-    KeyConditionExpression: "#tk = :yyyy ",
-    ExpressionAttributeNames:{
-        "#tk": "taikhoan"
+// var params = { // Lay thong tin tai khoan, dang nhap // pass
+//     TableName : "TaiKhoan",
+//     KeyConditionExpression: "#tk = :yyyy ",
+//     ExpressionAttributeNames:{
+//         "#tk": "taikhoan"
         
-    },
-    ExpressionAttributeValues: {
-        ":yyyy": "nguoirade" 
+//     },
+//     ExpressionAttributeValues: {
+//         ":yyyy": "nguoirade" 
         
-    }
-};
+//     }
+// };
 
-docClient.query(params, function(err, data) {
+// docClient.query(params, function(err, data) {
+//     if (err) {
+//         console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+//     } else {
+//         console.log("Query succeeded.");
+//         data.Items.forEach(function(item) {
+//             console.log(" -", item.taikhoan+ ": " + item.matkhau + ":");
+//             if(item.loai === "thí sinh")
+//             {
+//                 console.log(item.thisinh.hoten);
+//             }else{
+//                 console.log(item.nguoirade.hoten)
+//             }
+
+            
+//         });
+//     }
+// });
+
+var param1 = { //lay tat ca de tren giao dien homepage //pass
+    TableName: "DeThi",
+};
+docClient.scan(param1,function(err, data){
     if (err) {
         console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+        
     } else {
         console.log("Query succeeded.");
         data.Items.forEach(function(item) {
-            console.log(" -", item.taikhoan+ ": " + item.matkhau + ":");
-            if(item.loai === "thí sinh")
-            {
-                console.log(item.thisinh.hoten);
-            }else{
-                console.log(item.nguoirade.hoten)
-            }
-
-            
-        });
-    }
+            console.log(" -", item.made + ": " + item.tieude)
+        })
+    };
 });

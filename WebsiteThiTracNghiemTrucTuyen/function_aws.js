@@ -117,23 +117,111 @@ function layBaiThi(mathisinh,res){ // lay ra cac bai thi cua thi sinh, load cac 
     });
 }
 
+function layDeThiThuocMonHoc(monhoc,res)
+{
+    var param1 = { //lay cac de thi theo mon hoc /pass
+    TableName: "DeThi",
+    FilterExpression: 'contains(#name , :n)',
+    ExpressionAttributeNames: { "#name": "monhoc" },
+    ExpressionAttributeValues: { ":n": monhoc}
+};
+docClient.scan(param1,function(err, data){//function(err,data)
+    if (err) {
+        console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+        
+    } else {
+        console.log("Query succeeded.");
+        data.Items.forEach(function(item) {
+            console.log(" -", item.monhoc + ": " + item.made + ":" + item.tieude);
+        })
+    };
+});
+}
 
+function taoTaiKhoan(body, res){  // them tai khoan vao bang Tai Khoan
+    const {taikhoan,matkhau,loai,hoten, sodienthoai,email} = body;
+    if(loai === "thí sinh")
+    {
+        var param = {
+            TableName : "TaiKhoan",
+            ConditionExpression: "attribute_not_exists(taikhoan)",
+            Item:{
+                taikhoan: taikhoan,
+                matkhau: matkhau,
+                loai: loai,
+                admin: {
+                    maAdmin: "###"
+                },
+                nguoirade:{
+                    manguoirade: "###",
+                    hoten: "###",
+                    namsinh: "###",
+                    sodienthoai: "###",
+                    email: "###"
+                },
+                thisinh:{
+                    mathisinh: uuid(),
+                    hoten: hoten,
+                    namsinh: namsinh,
+                    sodienthoai: sodienthoai,
+                    email: email
+                }
+            }
+        
+        }
+    }else
+    {
+        var param = {
+            TableName : "TaiKhoan",
+            ConditionExpression: "attribute_not_exists(taikhoan)",
+            Item:{
+                taikhoan: taikhoan,
+                matkhau: matkhau,
+                loai: loai,
+                admin: {
+                    maAdmin: "###"
+                },
+                nguoirade:{
+                    manguoirade: uuid(),
+                    hoten: hoten,
+                    namsinh: namsinh,
+                    sodienthoai: sodienthoai,
+                    email: email
+                },
+                thisinh:{
+                    mathisinh: "###",
+                    hoten: "###",
+                    namsinh: "###",
+                    sodienthoai: "###",
+                    email: "###"
+                }
+            }
+        
+        }
+    };
 
-// function taoTaiKhoan(body, res){  // them tai khoan
-//     const {taikhoan,matkhau,loai,maAdmin, manguoidung,hoten, sodienthoai,email} = body;
-//     var param6 = {
-//         TableName : "TaiKhoan",
-//         ConditionExpression: "attribute_not_exists(taikhoan) OR attribute_not_exists(manguoidung)",
-//         if(loai)
-//     }
-// }
+    docClient.put(param,(err,data)=>{
+        if (err) {
+            //function_form.addNewForm(res);
+            res.write('<h5 style="color:red;">All fields are required!</h5>');
+        }
+        else {
+            console.log(data)
+            res.writeHead(302, { 'Location': '/' });
+        }
+        res.end();
+    });
+    
+}
 
 module.exports = {
    layCauHoiTaoBang: layCauHoiTaoBang,
    layCauHoiThuocDeThi: layCauHoiThuocDeThi,
    layThongTinTaiKhoan: layThongTinTaiKhoan,
    layDeThi: layDeThi,
-   layBaiThi: layBaiThi
+   layBaiThi: layBaiThi,
+   layDeThiThuocMonHoc: layDeThiThuocMonHoc,
+   taoTaiKhoan: taoTaiKhoan
 }
 
 
